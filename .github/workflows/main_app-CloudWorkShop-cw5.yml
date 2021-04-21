@@ -56,4 +56,4 @@ jobs:
         app-name: 'app-CloudWorkShop-cw5'
         slot-name: 'production'
         publish-profile: ${{ secrets.AzureAppService_PublishProfile_c067e7ba80fc486b8b78dc6696771010 }}
-        package: ${{env.DOTNET_ROOT}}/myapp
+        package: .
